@@ -12,7 +12,7 @@ export default function Login() {
 
     return (
         <div>
-            <h1>Login Page</h1>
+            <h1 className='heading'>Login Page</h1>
             <Link href="/">Go to homepage</Link>
             <br />
             <button onClick={() => navigate("loginstudent")}>Go to Student Login Page</button>
