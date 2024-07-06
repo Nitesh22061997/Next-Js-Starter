@@ -6,7 +6,6 @@ import { usePathname } from 'next/navigation'
 
 function Layout({ children }) {
     const pathName = usePathname()
-    console.log(pathName);
     return (
         <div>
             {

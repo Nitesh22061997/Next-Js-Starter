@@ -1,12 +1,15 @@
+'use client'
 import React from 'react'
 
-function Lecture() {
+function Lecture({ params }) {
+    console.log(params);
     return (
-        <>
-            <div>Lecture 1 of College</div>
-            <div>Lecture 2 of College</div>
-            <div>Lecture 2 of College</div>
-        </>
+
+        <div>
+            <h1>Day of College {params.lecture[0]}</h1>
+            <h1>Lecture number {params.lecture[1]}</h1>
+        </div>
+
     )
 }
 
