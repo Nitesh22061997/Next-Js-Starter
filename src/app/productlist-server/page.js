@@ -1,3 +1,5 @@
+import Product from "./product"
+
 async function myfetch() {
     let data = await fetch("https://dummyjson.com/products")
     data = await data.json()
@@ -16,6 +18,7 @@ export default async function Page() {
                 products.map((item) => (
                     <div key={item.id}>
                         <h2>Name : {item.title}</h2>
+                        <Product price={item.price} />
                     </div>
                 ))
             }
