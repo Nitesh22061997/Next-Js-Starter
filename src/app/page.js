@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main >
-      <h1>Generate meta data for dynamic meta </h1>
+      <h1>Generate script component </h1>
     </main>
   );
 }
