@@ -1,7 +1,9 @@
+import React from 'react'
+
 export default function Home() {
   return (
-    <main >
-      <h1>Generate script component </h1>
-    </main>
-  );
+    <div>
+      <h1>This is Homepage</h1>
+    </div>
+  )
 }
