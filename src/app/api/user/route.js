@@ -6,3 +6,8 @@ export function GET(request) {
     const data = user
     return NextResponse.json(data, { status: 200 })
 }
+
+export function POST(request) {
+    const data = user
+    return NextResponse.json({ result: "Hello" })
+}
